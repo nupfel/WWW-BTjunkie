@@ -16,7 +16,7 @@ you'll appreciate i think. just reroute STDERR before and you're fine :D
 
 =head1 VERSION
 
-Version 0.01
+Version 0.01.01
 
 =cut
 
