@@ -10,3 +10,4 @@ t/pod.t
 t/boilerplate.t
 MANIFEST.SKIP
 ignore.txt
+inc
