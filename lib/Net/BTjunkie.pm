@@ -16,9 +16,9 @@ you'll appreciate i think. just reroute STDERR before and you're fine :D
 
 =head1 VERSION
 
-Version
+Version 0.01
 
-0.01cut
+=cut
 
 our $VERSION = '0.01';
 
