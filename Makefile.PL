@@ -1,7 +1,7 @@
 use inc::Module::Install;
 
-name     'Net-BTjunkie';
-all_from 'lib/Net/BTjunkie.pm';
+name     'WWW-BTjunkie';
+all_from 'lib/WWW/BTjunkie.pm';
 author   q{Tobias Kirschstein <mail@lev.geek.nz>};
 license  'perl';
 

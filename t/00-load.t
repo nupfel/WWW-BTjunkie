@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-    use_ok( 'Net::BTjunkie' ) || print "Bail out!\n";
+    use_ok( 'WWW::BTjunkie' ) || print "Bail out!\n";
 }
 
-diag( "Testing Net::BTjunkie $Net::BTjunkie::VERSION, Perl $], $^X" );
+diag( "Testing WWW::BTjunkie $WWW::BTjunkie::VERSION, Perl $], $^X" );

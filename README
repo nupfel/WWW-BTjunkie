@@ -1,4 +1,4 @@
-Net-BTjunkie
+WWW-BTjunkie
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
@@ -26,21 +26,21 @@ SUPPORT AND DOCUMENTATION
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc Net::BTjunkie
+    perldoc WWW::BTjunkie
 
 You can also look for information at:
 
     RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-BTjunkie
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-BTjunkie
 
     AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Net-BTjunkie
+        http://annocpan.org/dist/WWW-BTjunkie
 
     CPAN Ratings
-        http://cpanratings.perl.org/d/Net-BTjunkie
+        http://cpanratings.perl.org/d/WWW-BTjunkie
 
     Search CPAN
-        http://search.cpan.org/dist/Net-BTjunkie/
+        http://search.cpan.org/dist/WWW-BTjunkie/
 
 
 LICENSE AND COPYRIGHT

@@ -11,7 +11,7 @@ inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
-lib/Net/BTjunkie.pm
+lib/WWW/BTjunkie.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP

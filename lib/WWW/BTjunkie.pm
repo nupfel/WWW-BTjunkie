@@ -1,4 +1,4 @@
-package Net::BTjunkie;
+package WWW::BTjunkie;
 
 use Any::Moose;
 use Data::Dumper;
@@ -7,7 +7,7 @@ use Web::Scraper::LibXML;
 
 =head1 NAME
 
-Net::BTjunkie - search API for http://btjunkie.org using Web::Scraper::LibXML(*)
+WWW::BTjunkie - search API for http://btjunkie.org using Web::Scraper::LibXML(*)
 
 (*) which annoyingly creates a lot of noise, due to the HTML::TreeBuilder::LibXML
 guys not setting "suppress_errors" or at least giving a chance to pass the
@@ -16,7 +16,7 @@ you'll appreciate i think. just reroute STDERR before and you're fine :D
 
 =head1 VERSION
 
-Version 0.01.01
+Version 0.01
 
 =cut
 
@@ -28,9 +28,9 @@ our $VERSION = '0.01';
 Currently only a search method is provided that returns an arrayref of hashes.
 Several advanced search options can be used. See ATTRIBUTES
 
-    use Net::BTjunkie;
+    use WWW::BTjunkie;
 
-    my $bt = Net::BTjunkie->new->search("weird stuff", { lang => "es", category => "anime" });
+    my $bt = WWW::BTjunkie->new->search("weird stuff", { lang => "es", category => "anime" });
     foreach my $t (@{ $bt }) {
         print $t->{title} . ' ' . $t->{url} . $/;
     }
@@ -203,7 +203,7 @@ my %category = (
 
 you can submit any attribute listed above as search option in a hash as an optional second parameter.
 
-    Net::BTjunkie->new->search('stuff', { lang => 'es', category => 'anime' });
+    WWW::BTjunkie->new->search('stuff', { lang => 'es', category => 'anime' });
 
 =cut
 
@@ -253,14 +253,14 @@ Tobias Kirschstein, C<< <mail at lev.geek.nz> >>
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-net-btjunkie at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Net-BTjunkie>.  I will be notified, and then you'll
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=WWW-BTjunkie>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
 =head1 SUPPORT
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Net::BTjunkie
+    perldoc WWW::BTjunkie
 
 
 You can also look for information at:
@@ -269,19 +269,19 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Net-BTjunkie>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=WWW-BTjunkie>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
-L<http://annocpan.org/dist/Net-BTjunkie>
+L<http://annocpan.org/dist/WWW-BTjunkie>
 
 =item * CPAN Ratings
 
-L<http://cpanratings.perl.org/d/Net-BTjunkie>
+L<http://cpanratings.perl.org/d/WWW-BTjunkie>
 
 =item * Search CPAN
 
-L<http://search.cpan.org/dist/Net-BTjunkie/>
+L<http://search.cpan.org/dist/WWW-BTjunkie/>
 
 =back
 
@@ -302,5 +302,5 @@ See http://dev.perl.org/licenses/ for more information.
 =cut
 
 __PACKAGE__->meta->make_immutable();
-# End of Net::BTjunkie
+# End of WWW::BTjunkie
 
